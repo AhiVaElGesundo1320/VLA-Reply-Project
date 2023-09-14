@@ -1,0 +1,93 @@
+.contactos {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}
+
+h4 {
+  margin-left: 100px;
+  margin-top: 80px;
+  color: gray;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+.banderas {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+.numeros {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  margin-right: 10px;
+  color: gray;
+}
+
+.links {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.links a {
+  text-decoration: none;
+  color: #00b4dc;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.con {
+  color: #00b4dc;
+  font-size: 20px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.linksFooter p {
+  display: flex;
+  margin-top: 40px;
+}
+
+.footer {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.buttonYimg {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: column;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.boton button {
+  
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #00b4dc;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  color: white;
+  border:none;
+}
+.boton button:hover {
+  cursor: pointer;
+  transition: background-color, 1s;
+  background-color: #00b4dc65;
+}
+.derechos {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  color: #00b4dc;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}

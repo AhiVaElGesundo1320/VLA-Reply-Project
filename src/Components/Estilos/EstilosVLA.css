@@ -1,0 +1,92 @@
+.main-VLA {
+  
+  display: flex;
+  flex-flow: row;
+  height: 680px;
+  padding-top: 100px;
+  background-color: rgba(184, 184, 184, 0.261);
+}
+.text-btn-vla {
+  
+  width: 700px;
+  height: 570px;
+}
+.text-btn-vla h1 {
+  
+  font: 62px Quicksand, sans-serif;
+  margin-left: 30px
+}
+
+.text-btn-vla p {
+  
+  font: 20px Quicksand, sans-serif;
+  line-height: 40px;
+  color: rgb(67, 67, 67);
+  margin-right:100px;
+  margin-left: 30px;
+}
+.VLA-button {
+  
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+
+.VLA-button button {
+  width: 170px;
+  height: 60px;
+  border-radius: 15px;
+  border:none;
+  font: 24px Quicksand, sans-serif;
+  color:white;
+  transition: width 1s, height 1s;
+}
+.VLA-button button:hover{
+  cursor: pointer;
+  /* transition: width, height, 1s; */
+  width:190px;
+  height: 70px; ;
+}
+.button-1{
+  background-color:#00b4dc;
+}
+.button-2{
+  background-color:rgba(140, 144, 149, 0.612);
+}
+
+.cursos-tipos{
+  
+  background-color: rgba(184, 184, 184, 0.261);
+  height: 200px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+.card-cur{
+  
+  width:fit-content;
+  height:200px;
+  display:flex;
+  flex-flow:column;
+  justify-content: space-around;
+  align-items: center;
+  font: 18px Lato, sans-serif;
+  
+}
+.card-cur a {
+  text-decoration: none;
+  color: rgb(67, 67, 67);
+}
+
+.card-cur img {
+  
+  box-shadow: 0px 6px 32px 0px rgba(0,0,0,0.77);
+}
+
+.carousel-vla {
+  
+  width: 1000px;
+  height: 550px;
+  margin-left: 70px;
+}

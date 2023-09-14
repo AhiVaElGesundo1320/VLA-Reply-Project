@@ -1,0 +1,94 @@
+
+
+.qestn{
+ 
+  margin:50px;
+  font:24px Lato,sans-serif;
+  line-height: 200%;
+  display:flex;
+  flex-flow: column;
+  text-align: center;
+}
+
+.pre-text{
+  
+  color:rgb(113, 113, 113);
+}
+
+.fila-de-imgtext {
+  
+  display:flex;
+  margin-right:140px;
+  margin-left: 140px;
+  /* margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px; */
+}
+
+.tarjeta {
+  
+  width: 100%;
+  margin-right:20px;
+  margin-left: 20px;
+  display: flex;
+  flex-flow:column;
+  justify-content: space-around;
+  align-items: center;
+  color:rgb(113, 113, 113);
+}
+.tarjeta p {
+  font:24px Lato,sans-serif;
+  line-height: 200%;
+  
+}
+.parrafo-terco{
+
+  margin-bottom:70px;
+}
+.parrafos .spn {
+  
+  display: flex;
+  flex-flow:row;
+  justify-content:center ;
+  margin-top:25px;
+  margin-bottom: 25px;
+  color:rgb(138, 138, 138); 
+}
+
+.spn-stl .spn {
+  
+  display:flex;
+  
+}
+
+.boton-team{
+  
+  margin-top:20px;
+  height: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.boton-team button{
+  border: none;
+  width:350px;
+  height: 75px;
+  border-radius:20px;
+  font:28px Lato,sans-serif;
+  color:white;
+  background-color: #00b4dc;
+}
+.boton-team button:hover{
+ cursor: pointer;
+ transition:background-color,1s; 
+ background-color: #00b4dc65;
+}
+.div-carsouel-img{
+  border:blue 2px solid;
+  margin-left: 10px;
+}
+carousel-img img{
+  border:rgb(0, 255, 0) solid 2px;
+}

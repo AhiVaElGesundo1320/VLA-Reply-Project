@@ -1,0 +1,50 @@
+
+/* .Nav{
+  position:static;
+ border:red solid 2px;
+ 
+} */
+.li-nav{
+
+width: fit-content;
+}
+
+.Nav ul li a{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin-top:0;
+}
+
+.navbar  {
+  list-style:none ;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  
+}
+.navbar  li a {
+  text-decoration: none;
+  display:flex;
+  color: lightslategray;
+  margin-left: 70px;
+  font-size: 25px;
+  
+}
+
+
+.logo li  {
+  
+  list-style: none;
+
+}
+
+.navbar li a:hover {
+  border-bottom:solid 5px lightblue;
+  
+}
+ /* :visited .active{
+  background-color:lightblue;
+  color: white;
+  
+} */

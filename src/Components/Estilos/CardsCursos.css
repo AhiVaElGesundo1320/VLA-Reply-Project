@@ -1,0 +1,79 @@
+.cards a{
+  text-decoration: none;
+}
+
+.cards {
+  
+  margin-top:30px;
+  margin-left:100px ;
+  margin-right:100px ;
+  margin-bottom: 0;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  font:18px Lato, sans-serif;
+}
+.card1{
+  width:350px;
+  border:lightgrey 2px solid;
+  height: 600px;
+  margin: auto 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  text-align:left;
+}
+
+
+.parrafo{
+  
+  font:18px Lato, sans-serif;
+  color:rgb(61, 61, 61);
+}
+.parrafo p{
+  font:18px Lato, sans-serif;
+  padding-left:40px;
+}
+.parrafo h1 {
+  font:30px Lato, sans-serif;
+  padding-left:40px;
+}
+
+
+.button{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+.button button{
+  border: #00fbff 7px solid;
+  border-radius: 10px;
+  color:#00fbff;  
+  font: 25px Lato, sans-serif;
+  background-color: white;
+  height:60px;  
+  width: 190px;
+  transition: background 0.5s, color 0.5s;
+}
+ .maincard {
+  transition:box-shadow 1s;
+ }
+.maincard:hover {
+box-shadow: 2px -1px 19px 2px rgba(0,0,0,0.36);
+}
+
+.button :hover{
+  cursor:pointer;
+  background-color: #00fbff;
+  color:white;
+}
+
+.card1 img {
+  
+  opacity:0.7;
+  transition: opacity 1s;
+}
+.card1 img:hover{
+  opacity: 1;
+}

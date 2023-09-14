@@ -1,0 +1,82 @@
+.principal {
+  
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 40px;
+}
+
+.main {
+  
+  background-image: url(https://www.ibmhcorp.com/wp-content/uploads/2022/08/Teletrabajo-y-presencial.jpg);
+  background-size: 100%;
+  opacity:0.5;
+  height: 350px;
+  color:white;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  margin-top: 0;
+  
+}
+
+.main button {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  border: white solid 5px;
+  border-radius: 10px;
+  width: 350px;
+  height: 100px;
+  background-color: #00fbff;
+  margin-top:150px;
+  font:25px Lato, sans-serif; 
+  color: white;
+  transition: width 1s,height 1s;
+}
+.main button:hover{
+    background: none;
+    width:380px;
+    height: 125px;
+}
+.main h1 {
+ margin-top: 150px;
+ 
+ font:50px Lato, sans-serif;
+}
+
+
+.lista ul {
+  
+  background-color:rgb(221, 221, 221);
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px ;
+  height: 150px;
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+.li1  {
+  color: rgb(94, 106, 117);
+  display: flex;
+  flex-flow: column;
+  justify-content:flex-start;
+  font-size:30px;
+}
+.li2  {
+  color:  rgb(94, 106, 117);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  font-size:30px;
+}
+.li3  {
+  color:  rgb(94, 106, 117);
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  font-size:30px;
+}

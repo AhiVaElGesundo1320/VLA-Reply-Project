@@ -1,0 +1,56 @@
+
+
+
+.acercaDe-main{
+  background-color: rgba(164, 164, 164, 0.045);
+  display:flex;
+  flex-flow: column;
+  align-items: center;
+  margin:70px 50px 0px 50px;
+  border-radius: 30px;
+  
+}
+.aboutus-title{
+  font:49px Quicksand,sans-serif;
+  width: auto;
+  height:130px;
+  margin-top:0;
+}
+.aboutus-title h1{
+  margin-top: 0;
+  color:rgb(67, 67, 67)
+}
+
+.aboutus_text {
+  font:24px Quicksand,sans-serif;
+  color:rgb(111, 111, 111);
+  margin:20px 90px 0px 90px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.aboutus-more-text {
+  font:20px Quicksand,sans-serif;
+  color:rgb(93, 93, 93);  
+}
+.card-acercade{
+  background-color:rgba(138, 138, 138, 0.045);
+  border-radius:30px;
+  margin: 20px 650px 0 650px;
+  display:flex;
+  flex-flow: column;
+  align-items: center;
+  font:20px Quicksand,sans-serif;
+  color:rgb(93, 93, 93);  
+}
+.aboutus-contact{
+  display:flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.about-img img {
+  height: 350px;
+  width: 400px;
+  border-radius: 700px;
+}

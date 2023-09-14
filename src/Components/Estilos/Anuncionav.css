@@ -1,0 +1,7 @@
+.anuncio{
+  display:flex;
+  flex-flow:row;
+  justify-content: center;
+  background-color: #87CEEB;
+  color:white;
+}
